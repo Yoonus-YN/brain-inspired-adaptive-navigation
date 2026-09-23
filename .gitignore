@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+env/
+venv/
+ENV/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data and results (large files)
+data/*.csv
+data/*.npy
+data/*.pkl
+results/logs/*.log
+results/figures/*.png
+results/figures/*.pdf
+results/tables/*.csv
+
+# Keep directory structure
+!data/.gitkeep
+!results/figures/.gitkeep
+!results/tables/.gitkeep
+!results/logs/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PyTorch model checkpoints (can be large)
+*.pth
+*.pt
+reinforcement_learning/checkpoints/
+
+# Brian2 compiled cache
+brian_preferences

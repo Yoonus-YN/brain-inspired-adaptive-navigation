@@ -1,0 +1,32 @@
+# BIAN-SNN: Brain-Inspired Adaptive Navigation
+# Python dependencies
+
+# Core scientific computing
+numpy>=1.24.0
+scipy>=1.10.0
+pandas>=2.0.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Machine learning
+scikit-learn>=1.3.0
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Spiking Neural Networks (for detailed neuroscience notebooks)
+brian2>=2.5.0
+
+# Reinforcement learning environment
+gymnasium>=0.29.0
+
+# Jupyter notebooks
+jupyter>=1.0.0
+ipykernel>=6.0.0
+ipywidgets>=8.0.0
+nbformat>=5.0.0
+
+# Utilities
+tqdm>=4.65.0
+pyyaml>=6.0.0
